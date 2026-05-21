@@ -1,7 +1,9 @@
+package reto_pre_examen;
+
 import java.util.Scanner;
 
 class Lectura {
-    private static Scanner inp = new Scanner(System.in);
+    private static final Scanner inp = new Scanner(System.in);
 
     public static int nextInt(String mss) {
         System.out.print(mss);
